@@ -1,24 +1,61 @@
-# README
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Authentication Using React & Rails
 
-Things you may want to cover:
+The main feature for this project is:
+- Admin Login
+- User Login, Register, Logout, Forgot Password
+- Mailer
 
-* Ruby version
+### Built With
+* [Rails 6.1.10](https://guides.rubyonrails.org/v6.1/)
+* [ReactJS 17.0.1](https://reactjs.org/versions/)
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+<!-- GETTING STARTED -->
+## Getting Started
 
-* Database initialization
+### Installation
 
-* How to run the test suite
+1. Install Ruby, Rails,
+2. Clone the repo
+```sh
+$ git clone git@github.com:ahmadsyramdani/learnseeker-assesment.git
+```
+3. Go to project path
+```sh
+$ cd learnseeker-assesment
+```
+4. Install Packages
+```sh
+$ yarn install
+$ bundle install
+```
+5. Create database & migrate
+```sh
+copy .env.example to .env
+$ rake db:create && rake db:migrate && rake db:seed
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+<!-- USAGE EXAMPLES -->
+## Run
 
-* ...
+### Mailcatcher
+```sh
+$ gem install mailcatcher
+$ mailcatcher
+```
+and open on browser http://127.0.0.1:1080/
+
+### Run app
+```sh
+$ rails s -p3000
+```
+
+<!-- CONTACT -->
+## Contact
+
+Ahmad - ahmadsyaripramdani@gmail.com
