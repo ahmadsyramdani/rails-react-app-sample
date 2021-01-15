@@ -22,11 +22,11 @@ The main feature for this project is:
 1. Install Ruby, Rails,
 2. Clone the repo
 ```sh
-$ git clone git@github.com:ahmadsyramdani/learnseeker-assesment.git
+$ git clone git@github.com:ahmadsyramdani/rails-react-app-sample.git
 ```
 3. Go to project path
 ```sh
-$ cd learnseeker-assesment
+$ cd rails-react-app-sample
 ```
 4. Install Packages
 ```sh
